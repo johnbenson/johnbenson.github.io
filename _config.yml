@@ -17,3 +17,5 @@ github_username:  johnbenson
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-sitemap
