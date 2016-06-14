@@ -5,9 +5,9 @@ date:   2016-06-13 20:14:33 -0400
 categories: code
 ---
 
-<img src="../img/css3-book.jpg">
+<img src="../img/css3-book.jpg" alt="CSS3 for Web Designers book on wooden table">
 
-<a href="https://abookapart.com/products/css3-for-web-designers">CSS3 for Web Designers</a> was one of the first books I read when I started making websites at work about six years ago. Like its companion book <a href="https://abookapart.com/products/html5-for-web-designers">HTML5 for Web Designers</a> by Jeremy Keith, I was grateful to have a short, accessible primer on what were then emerging and messy web technologies. Essentially, here’s what you can use now, and here are some of the things on the horizon.
+<a href="https://abookapart.com/products/css3-for-web-designers">CSS3 for Web Designers</a> was one of the first books I read when I started making websites at work about six years ago. Like its companion book <a href="https://abookapart.com/products/html5-for-web-designers">HTML5 for Web Designers</a> by Jeremy Keith, I was grateful to have a short, accessible primer on what were then emerging and messy web technologies. Essentially, the book says <em>here’s what you can use now</em>, and <em>here are some of the things on the horizon</em>. Nice.
 
 Now six years later, both books have been revised to bring the content up to date. While I did not perform a side-by-side comparison (having passed along my first editions), I do not regret upgrading my copies one bit. I like the <a href="http://www.abookapart.com">A Book Apart</a> series because the titles serve equally well as introductions and refresher courses. Therefore, I count on them to be fairly evergreen (<cite>Design is a Job</cite>) or updated before they start to feel too stale. Unlike a reference manual, the ABA series titles can each be read in an hour or two, and so every page counts.
 
