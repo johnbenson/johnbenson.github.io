@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book Review: CSS3 for Web Designers"
-date:   2016-06-13 20:14:33 -0400
+date:   2016-06-13 17:14:33 -0400
 categories: code
 ---
 
