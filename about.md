@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm John Benson, a web developer and tech writer in Metro Detroit.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I help people make sense of things through text, speech, and code. I'm happiest when I am making complex, technical information accessible to a general audience - especially on the web.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Before relocating to Michigan in June 2016, I managed projects and business development for a web agency, maintained client portfolios for a boutique wealth management firm, and taught writing at a state university.
