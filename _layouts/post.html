@@ -1,3 +1,21 @@
+{% assign post = page %}
+{% if post.tags.size > 0 %}
+    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+    {% for post_tag in post.tags %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/blogging/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
 <!DOCTYPE html>
 <html>
 
@@ -8,8 +26,9 @@
     <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-            <h4 class="border-it blog-cat">Categories</h4>
-            <p>{{ page.categories }}</p>
+            <h4 class="border-it blog-cat">Tags</h4>
+            <!-- <p id="post-meta">{{ tags_content }}</p> -->
+            <p>Coming soon.</p>
           </div>
 
           <div class="col-md-6">

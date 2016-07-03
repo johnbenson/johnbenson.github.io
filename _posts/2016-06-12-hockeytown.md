@@ -2,7 +2,7 @@
 layout: post
 title:  "Hockeytown"
 date:   2016-06-12 13:13:13 -0400
-categories: detroit
+categories: Detroit
 tags: [hockey, downtown]
 ---
 <!-- testing -->

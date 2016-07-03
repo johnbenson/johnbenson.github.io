@@ -2,8 +2,8 @@
 layout: post
 title:  "Book Review: CSS3 for Web Designers"
 date:   2016-06-13 17:14:33 -0400
-categories: code
-tags: [book review, CSS3]
+categories: Code
+tags: [Book Review, CSS3]
 ---
 <img src="{{ "/img/css3-book.jpg" alt="CSS3 Book on Wooden Table" | prepend: site.baseurl }}" class="img-border img-responsive">
 
