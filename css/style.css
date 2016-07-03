@@ -330,3 +330,9 @@ img.img-border {
     display: none;
   }
 }
+
+@media (max-width: 500px) {
+  .threecol {
+    columns: 1;
+  }
+}
