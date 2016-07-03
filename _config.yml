@@ -9,13 +9,12 @@
 title: John Benson
 # email:
 description: Web developer and technical writer in Metro Detroit. This is a work in progress. Hello.
-permalink: /blog/:title/
+permalink: blogging/:title/
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://benson.is" # the base hostname & protocol for your site
 twitter_username: johnbenson
 github_username:  johnbenson
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-sitemap

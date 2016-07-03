@@ -1,0 +1,53 @@
+---
+layout: blog-main
+---
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 cat-meta">
+      <h4 class="border-it">Categories</h4>  <!-- hard coded, for now -->
+      <ul class="categories">
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Code</a></li>
+        <li><a href="#">Detroit</a></li>
+        <li><a href="#">Music</a></li>
+      </ul>
+
+      <h4 class="border-it">Tags</h4>
+      <ul class="categories">
+        <li><a href="#">Ferndale</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">Grand Circus</a></li>
+        <li><a href="#">HTML5</a></li>
+        <li><a href="#">Moline</a></li>
+        <li><a href="#">Rigby</a></li>
+        <li><a href="#">Live Music</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-6 blog-list-wrap">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li class="post-excerpt">
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+            <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+            <p>{{ post.excerpt }}<a href="{{ post.url | prepend: site.baseurl }}">Continue &rarr;</a></p>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    </div>      <!-- end of blog post column container -->
+    <div class="col-md-3">
+      <figure id="bio-photo">
+        <img src ="../img/rigby.jpg" class="img-responsive" alt="photo of the author's dog" />
+      </figure>
+      <figcaption>Stay awhile and listen.</figcaption>
+      <h2 class="push-it-up">About this Blog</h2>
+      <p>This is my blog. There are many like it, but this one in no way reflects the opinion of anyone but me.</p>
+    </div>
+  </div>        <!-- end of row containing main content area -->
+</div>          <!-- end of fluid container / wrapper -->
