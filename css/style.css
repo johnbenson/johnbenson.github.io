@@ -402,6 +402,10 @@ img.img-border {
     padding: 0.33em;
   }
 
+  .post {
+    padding: 1em;
+  }
+
   .tags {
     display: none;
   }
