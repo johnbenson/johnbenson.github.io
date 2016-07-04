@@ -389,3 +389,11 @@ img.img-border {
     columns: 1;
   }
 }
+
+@media (max-width: 420px) {
+  nav ul li {
+    display: block;
+    font-size: 2em;
+    margin-top: 1em;
+  }
+}
