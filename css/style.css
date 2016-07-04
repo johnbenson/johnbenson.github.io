@@ -396,4 +396,13 @@ img.img-border {
     font-size: 2em;
     margin-top: 1em;
   }
+
+  .blog-list-wrap,
+  .col-md-6 {
+    padding: 0.33em;
+  }
+
+  .tags {
+    display: none;
+  }
 }
