@@ -401,6 +401,10 @@ img.img-border {
     padding: 0.33em;
   }
 
+  .facts {
+    margin-left: 1.3333333333em;
+  }
+
   .post {
     padding: 1em;
   }
