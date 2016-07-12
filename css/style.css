@@ -91,7 +91,8 @@ a {
 }
 
 a:hover {
-  font-weight: 700;
+  /*font-weight: 700;*/
+  border-bottom: 2px solid black;
   color: #242423;
   text-decoration: none;
 }
