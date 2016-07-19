@@ -13,6 +13,10 @@ $brand-color-accent-invert: #E8EDDF;
   border-bottom: 2px solid $brand-color-accent;
 }
 
+@mixin thin-underline {
+  border-bottom: 1px solid $brand-color-accent;
+}
+
 @mixin greyscale-hover($percentage) {
   -webkit-filter: grayscale($percentage);
   -webkit-transition: .1s ease-in-out;
@@ -40,7 +44,7 @@ h1, h2, h3, h4, h5 {
 // trying out referencing parent selectors
 a {
   color: $brand-color-accent;
-  border-bottom: 1px solid $brand-color-accent;
+  @include thin-underline;
 
   &:hover {
     @include std-underline;
@@ -167,7 +171,7 @@ ul.post-list {
 
 .borderline{
   padding-bottom: 10px;
-  border-bottom: 1px solid $brand-color-accent;
+  @include thin-underline;
 }
 
 .border-it {
@@ -177,7 +181,7 @@ ul.post-list {
 
 .border-low {
   padding-bottom: 2em;
-  border-bottom: 1px solid $brand-color-accent;
+  @include thin-underline;
 }
 
 .categories {
