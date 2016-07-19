@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* -- set type scale to perfect fourth -- */
+html {
+  font-size: 1em; }
+
+p {
+  margin-bottom: 1.3em; }
+
+h1, h2, h3, h4, h5 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em; }
+
+h2 {
+  font-size: 2.369em; }
+
+h3 {
+  font-size: 1.777em; }
+
+h4 {
+  font-size: 1.333em; }
+
+h5 {
+  font-size: 1em; }
+
+small, .font_small {
+  font-size: 0.75em; }
+
+strong {
+  font-weight: 700; }
+
+/*--------- benson css ----------*/
+body {
+  font-family: 'Inconsolata', Arial, sans-serif;
+  line-height: 1.6em;
+  background-color: #F5CB5C;
+  max-width: 90em;
+  /*border: 1px solid black;                        */
+  margin-left: auto;
+  margin-right: auto; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+a {
+  color: black;
+  border-bottom: 1px solid black; }
+
+a:hover {
+  /*font-weight: 700;*/
+  border-bottom: 2px solid black;
+  color: #242423;
+  text-decoration: none; }
+
+a:visited {
+  color: #242423; }
+
+article {
+  border-bottom: 2px solid black; }
+
+b {
+  font-weight: 700; }
+
+figcaption {
+  text-align: center; }
+
+figure img {
+  width: 100%;
+  height: 100%; }
+
+header {
+  border-bottom: 4px solid black; }
+
+header h1,
+nav {
+  display: inline-block;
+  margin-bottom: 0; }
+
+nav ul {
+  margin-top: 8.2em;
+  margin-bottom: 1em; }
+
+nav ul li {
+  display: inline-block;
+  padding: 0 1em 0 1em; }
+
+header a {
+  border-bottom: none; }
+
+nav li:after {
+  content: " / / "; }
+
+nav li:last-child:after {
+  content: ""; }
+
+nav li a:hover {
+  border-bottom: 4px solid #CFDBD5; }
+
+footer {
+  padding-top: 1em;
+  margin-top: 6em; }
+
+footer .glyphicon {
+  margin-right: 0px;
+  font-size: smaller; }
+
+footer p {
+  border-top: 4px solid #242423;
+  padding-top: 1em; }
+
+ul.categories li {
+  display: inline-block; }
+
+a.post-link {
+  border-bottom: 2px solid black; }
+
+figure.project-thumb:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .1s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .1s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .1s ease-in-out; }
+
+figure.project-thumb {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .1s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .1s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .1s ease-in-out; }
+
+h4.border-it {
+  margin-top: 1em; }
+
+.active {
+  font-weight: 700; }
+
+h4.blog-cat {
+  margin-top: 1.6em; }
+
+.blog-list-wrap {
+  padding-top: 2em; }
+
+.border2 {
+  border-bottom: 2px solid black; }
+
+.borderline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black; }
+
+.border-it {
+  border: 2px solid black;
+  padding: 0.25em; }
+
+.border-low {
+  padding-bottom: 2em;
+  border-bottom: 1px solid black; }
+
+.btn-primary {
+  background-color: pink;
+  border-color: #D4AFBE; }
+
+.categories {
+  list-style: none;
+  display: inline-block; }
+
+.cat-meta {
+  margin-top: 0.66em; }
+
+.clear-it {
+  clear: both; }
+
+.code-link {
+  text-align: center; }
+
+.faq {
+  padding-right: 1.6em; }
+
+.glyphicon {
+  margin-right: 6px; }
+
+.h2-work {
+  margin-top: 0.5em; }
+
+.img-thumbnail {
+  margin-top: 20px; }
+
+img.img-border {
+  margin-top: 2em;
+  border: 4px solid black; }
+
+.job-bullets {
+  margin-bottom: 1em; }
+
+.job-entry {
+  margin-bottom: 2em; }
+
+.job-tag {
+  margin-right: 1em; }
+
+.job-title {
+  border-bottom: 4px solid black; }
+
+.no-line {
+  text-decoration: none;
+  border-bottom: none; }
+
+.no-line:hover {
+  color: #E8EDDF; }
+
+.pad-it {
+  padding: 0 0.66em; }
+
+.page-content {
+  /* override default jekyll main.css */
+  padding: 0; }
+
+.page-title {
+  /* only used in about section -- maybe rename this */
+  margin-top: 0em;
+  margin-bottom: 0.4em; }
+
+.post {
+  background-color: white;
+  padding: 2em;
+  margin-top: 2em;
+  border: 4px solid black; }
+
+.post-excerpt {
+  border-bottom: 2px solid black;
+  background-color: white;
+  padding: 2em; }
+
+.post-excerpt h3 {
+  margin-top: 1em; }
+
+.post-header {
+  border-bottom: none; }
+
+.post-list {
+  border: 4px solid black;
+  background-color: white; }
+
+.post-list > li {
+  margin-bottom: 0; }
+
+.project-thumb {
+  margin-top: 2em;
+  border: 4px solid black; }
+
+.project-thumb:hover {
+  border-color: #E8EDDF; }
+
+.push-down {
+  margin-bottom: 1em; }
+
+.push-it-up {
+  margin-top: 0.66em; }
+
+.resume-section {
+  margin-top: 0; }
+
+.resume-push {
+  margin-top: 1em; }
+
+.rss-subscribe {
+  margin-top: 1em;
+  text-align: center; }
+
+.single-space {
+  margin: 0; }
+
+.threecol {
+  columns: 3; }
+
+.twocol {
+  columns: 2; }
+
+#bio-photo {
+  margin-top: 2em;
+  border: 4px solid black; }
+
+@media (max-width: 1245px) {
+  nav li:after {
+    content: ""; } }
+
+@media (max-width: 992px) {
+  .page-title {
+    margin-top: 2em; }
+  .recently {
+    display: none; }
+  li {
+    margin-left: 2em; }
+  nav ul {
+    margin-top: 2em; } }
+
+@media (max-width: 500px) {
+  .threecol {
+    columns: 1; } }
+
+@media (max-width: 420px) {
+  nav ul li {
+    display: inline-block;
+    font-size: 1.33em;
+    margin-top: 1em;
+    padding: 0.5em; }
+  .blog-list-wrap {
+    padding: 0.33em; }
+  .facts {
+    margin-left: 1.3333333333em; }
+  .post {
+    padding: 1em; }
+  .tags {
+    display: none; } }
