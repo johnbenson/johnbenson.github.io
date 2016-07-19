@@ -60,7 +60,6 @@ small, .font_small {
 strong {
   font-weight: 700; }
 
-/*--------- benson css ----------*/
 body {
   font-family: 'Inconsolata', Arial, sans-serif;
   line-height: 1.6em;
@@ -134,7 +133,7 @@ footer .glyphicon {
   font-size: smaller; }
 
 footer p {
-  border-top: 4px solid #242423;
+  border-bottom: 4px solid #242423;
   padding-top: 1em; }
 
 ul.categories li {
@@ -158,6 +157,9 @@ figure.project-thumb {
   -moz-transition: .1s ease-in-out;
   -o-filter: grayscale(100%);
   -o-transition: .1s ease-in-out; }
+
+li.post-excerpt {
+  list-style: none; }
 
 h4.border-it {
   margin-top: 1em; }
@@ -268,7 +270,7 @@ img.img-border {
   border-bottom: none; }
 
 .post-list {
-  border: 4px solid #242423;
+  border-bottom: 4px solid #242423;
   background-color: white; }
 
 .post-list > li {
