@@ -170,6 +170,9 @@ h4.border-it {
 h4.blog-cat {
   margin-top: 1.6em; }
 
+ul.post-list {
+  list-style: none; }
+
 .blog-list-wrap {
   padding-top: 2em; }
 

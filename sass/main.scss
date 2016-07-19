@@ -9,6 +9,18 @@ $brand-color-accent-invert: #E8EDDF;
   border-bottom: 4px solid $brand-color-accent;
 }
 
+@mixin std-underline {
+  border-bottom: 2px solid $brand-color-accent;
+}
+
+@mixin greyscale-hover($percentage) {
+  -webkit-filter: grayscale($percentage);
+  -webkit-transition: .1s ease-in-out;
+  -moz-filter: grayscale($percentage);
+  -moz-transition: .1s ease-in-out;
+  -o-filter: grayscale($percentage);
+  -o-transition: .1s ease-in-out;
+}
 
 body {
   font-family: 'Inconsolata', Arial, sans-serif;
@@ -31,7 +43,7 @@ a {
   border-bottom: 1px solid $brand-color-accent;
 
   &:hover {
-    border-bottom: 2px solid $brand-color-accent;
+    @include std-underline;
     color: $brand-color-accent;
     text-decoration: none;
   }
@@ -42,7 +54,7 @@ a {
 }
 
 article {
-  border-bottom: 2px solid $brand-color-accent;
+  @include std-underline;
 }
 
 b {
@@ -114,25 +126,15 @@ ul.categories li {
 }
 
 a.post-link {
-  border-bottom: 2px solid $brand-color-accent;
+  @include std-underline;
 }
 
 figure.project-thumb:hover {
-  -webkit-filter: grayscale(0%);
-  -webkit-transition: .1s ease-in-out;
-  -moz-filter: grayscale(0%);
-  -moz-transition: .1s ease-in-out;
-  -o-filter: grayscale(0%);
-  -o-transition: .1s ease-in-out;
+  @include greyscale-hover(0%);
 }
 
 figure.project-thumb {
-  -webkit-filter: grayscale(100%);
-  -webkit-transition: .1s ease-in-out;
-  -moz-filter: grayscale(100%);
-  -moz-transition: .1s ease-in-out;
-  -o-filter: grayscale(100%);
-  -o-transition: .1s ease-in-out;
+  @include greyscale-hover(100%);
 }
 
 li.post-excerpt{
@@ -149,6 +151,10 @@ h4.border-it {
 
 h4.blog-cat {
   margin-top: 1.6em;
+}
+
+ul.post-list {
+  list-style: none;
 }
 
 .blog-list-wrap {
