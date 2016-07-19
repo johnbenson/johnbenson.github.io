@@ -27,7 +27,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* -- set type scale to perfect fourth -- */
 html {
   font-size: 1em; }
 
@@ -67,7 +66,6 @@ body {
   line-height: 1.6em;
   background-color: #F5CB5C;
   max-width: 90em;
-  /*border: 1px solid black;                        */
   margin-left: auto;
   margin-right: auto; }
 
@@ -77,20 +75,17 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 1em; }
 
 a {
-  color: black;
-  border-bottom: 1px solid black; }
-
-a:hover {
-  /*font-weight: 700;*/
-  border-bottom: 2px solid black;
   color: #242423;
-  text-decoration: none; }
-
-a:visited {
-  color: #242423; }
+  border-bottom: 1px solid #242423; }
+  a:hover {
+    border-bottom: 2px solid #242423;
+    color: #242423;
+    text-decoration: none; }
+  a:visited {
+    color: #72726e; }
 
 article {
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid #242423; }
 
 b {
   font-weight: 700; }
@@ -103,7 +98,7 @@ figure img {
   height: 100%; }
 
 header {
-  border-bottom: 4px solid black; }
+  border-bottom: 4px solid #242423; }
 
 header h1,
 nav {
@@ -146,7 +141,7 @@ ul.categories li {
   display: inline-block; }
 
 a.post-link {
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid #242423; }
 
 figure.project-thumb:hover {
   -webkit-filter: grayscale(0%);
@@ -177,19 +172,19 @@ h4.blog-cat {
   padding-top: 2em; }
 
 .border2 {
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid #242423; }
 
 .borderline {
   padding-bottom: 10px;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid #242423; }
 
 .border-it {
-  border: 2px solid black;
+  border: 2px solid #242423;
   padding: 0.25em; }
 
 .border-low {
   padding-bottom: 2em;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid #242423; }
 
 .btn-primary {
   background-color: pink;
@@ -222,7 +217,7 @@ h4.blog-cat {
 
 img.img-border {
   margin-top: 2em;
-  border: 4px solid black; }
+  border: 4px solid #242423; }
 
 .job-bullets {
   margin-bottom: 1em; }
@@ -234,7 +229,7 @@ img.img-border {
   margin-right: 1em; }
 
 .job-title {
-  border-bottom: 4px solid black; }
+  border-bottom: 4px solid #242423; }
 
 .no-line {
   text-decoration: none;
@@ -259,10 +254,10 @@ img.img-border {
   background-color: white;
   padding: 2em;
   margin-top: 2em;
-  border: 4px solid black; }
+  border: 4px solid #242423; }
 
 .post-excerpt {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #242423;
   background-color: white;
   padding: 2em; }
 
@@ -273,7 +268,7 @@ img.img-border {
   border-bottom: none; }
 
 .post-list {
-  border: 4px solid black;
+  border: 4px solid #242423;
   background-color: white; }
 
 .post-list > li {
@@ -281,7 +276,7 @@ img.img-border {
 
 .project-thumb {
   margin-top: 2em;
-  border: 4px solid black; }
+  border: 4px solid #242423; }
 
 .project-thumb:hover {
   border-color: #E8EDDF; }
@@ -313,7 +308,7 @@ img.img-border {
 
 #bio-photo {
   margin-top: 2em;
-  border: 4px solid black; }
+  border: 4px solid #242423; }
 
 @media (max-width: 1245px) {
   nav li:after {
