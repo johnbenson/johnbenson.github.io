@@ -157,6 +157,11 @@ figure.project-thumb {
   -o-filter: grayscale(100%);
   -o-transition: .1s ease-in-out; }
 
+blockquote {
+  margin: 2em;
+  border-left: 4px solid black;
+  padding-left: 2em; }
+
 li.post-excerpt {
   list-style: none; }
 
