@@ -140,6 +140,12 @@ figure.project-thumb {
   @include greyscale-hover(100%);
 }
 
+blockquote {
+  margin: 2em;
+  border-left: 4px solid black;
+  padding-left: 2em;
+}
+
 li.post-excerpt{
   list-style: none;
 }
