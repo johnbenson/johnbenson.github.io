@@ -9,6 +9,7 @@ tags: [grand circus, bootcamp, code]
 
 After presenting [my final project](http://www.cookloveconnect.com) to a packed house on Friday, I'm officially a graduate of the Grand Circus Front-End Coding Bootcamp. It feels great, and it was definitely one of the best experiences I've ever had. I'll miss the people in my cohort, our instructors, and the super-friendly staff of Grand Circus, but I'm excited to see where everyone lands and how we continue to grow as developers.  
 <!--more-->
+
 But the Monday after is rough, right? I'm eager to continue learning and building new things, but looking at my Github and portfolio there seems to be a lot of unfinished business. Some of this stuff is barely styled, is not responsive. I am now capable of doing much better work than I pushed just a few weeks ago. I've been learning to code publicly &ndash; what's the next step?
 
 ### Push Now, Refactor Later
