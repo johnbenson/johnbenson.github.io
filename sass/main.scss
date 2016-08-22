@@ -144,6 +144,11 @@ blockquote {
   margin: 2em;
   border-left: 4px solid black;
   padding-left: 2em;
+  display: block;
+    -webkit-margin-before: 2em;
+    -webkit-margin-after: 2em;
+    -webkit-margin-start: 2em;
+    -webkit-margin-end: 2em;
 }
 
 li.post-excerpt{
