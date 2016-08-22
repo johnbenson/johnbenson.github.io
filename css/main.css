@@ -113,9 +113,6 @@ nav ul li {
 header a {
   border-bottom: none; }
 
-header a:visited {
-  color: black; }
-
 nav li:after {
   content: " / / "; }
 
@@ -124,9 +121,6 @@ nav li:last-child:after {
 
 nav li a:hover {
   border-bottom: 4px solid #CFDBD5; }
-
-nav li a:visited {
-  color: black; }
 
 footer {
   padding-top: 1em;

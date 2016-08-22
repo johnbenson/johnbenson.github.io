@@ -52,9 +52,6 @@ a {
     text-decoration: none;
   }
 
-  // &:visited {
-  //   color: lighten($brand-color-accent, 30%);
-  // }
 }
 
 article {
@@ -97,9 +94,7 @@ nav ul li {
 header a {
   border-bottom: none;
 }
-header a:visited {
-  color: black;
-}
+
 
 nav li:after {
     content: " / / ";
@@ -113,9 +108,6 @@ nav li a:hover {
   border-bottom: 4px solid #CFDBD5;
 }
 
-nav li a:visited {
-  color: black;
-}
 
 footer {
     padding-top: 1em;
