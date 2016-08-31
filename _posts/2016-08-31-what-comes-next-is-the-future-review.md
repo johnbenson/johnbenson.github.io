@@ -7,7 +7,7 @@ tags: [code, web, web standards]
 ---
 <img src="{{ "/img/what-comes-next-is-the-future.png" alt="Title Screen of What Comes Next Is the Future Documentary" | prepend: site.baseurl }}" class="img-border img-responsive">
 
-Back in May of 2014, I supported a project on Kickstarter called *What Comes Next Is the Future: A Documentary About the Web*. I'm so glad I did. In just one hour, creator Matt Griffin presents a solid overview of how the web has been shaped since its inception, as told by the people responsible for shaping it.
+Back in May of 2014, I supported [a project on Kickstarter](https://www.kickstarter.com/projects/bearded/what-comes-next-is-the-future) called *What Comes Next Is the Future: A Documentary About the Web*. I'm so glad I did. In just one hour, creator Matt Griffin presents a solid overview of how the web has been shaped since its inception, as told by the people responsible for shaping it.
 <!--more-->
 
 ### A Brief History of the Web
@@ -24,6 +24,6 @@ I was pleased to see the director included time to discuss the web as a democrat
 
 > It's the ability to create an experience and hand it to somebody else without asking anybody for permission, without going through creating, minting, signing, and pushing a binary to somebody else. It's the ability to start publishing without gatekeepers. And maybe nobody pays attention, and that's OK. But not being able to say it in the first place? That's a fundamentally different kind of constraint. . . . The web is unique in that it hasn't had that kind of constraint. I think it is the most democratizing system of our generation.
 
-That's what still remains the most exciting part about the web for me. Sure, I am routinely blown away by some of the technological advances I've seen (most recently, web-based AR and music creation tools). It is astounding what one person can accomplish with a set of tools that are becoming increasingly commonplace and affordable. 
+That's what still remains the most exciting part about the web for me. Sure, I am routinely blown away by some of the technological advances I've seen (most recently, web-based AR and music creation tools). It is astounding what one person can accomplish with a set of tools that are becoming increasingly commonplace and affordable.
 
 If you're a person who makes things for the web, this is absolutely worth an hour of your time. I learned about new things to follow up on, like the [extensible web manifesto](https://github.com/extensibleweb/manifesto). Check out [the documentary website](http://www.futureisnext.com/) if you're interested in attending an upcoming screening or hosting one yourself.
