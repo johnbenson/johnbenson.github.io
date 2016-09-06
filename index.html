@@ -59,10 +59,9 @@
         <div class="col-md-3 recently">
           <h5>Recently posted</h5>
           <ul>
-            <li><a href="blogging/what-comes-next-is-the-future-review/">What Comes Next is The Future</a></li>
-            <li><a href="blogging/bootcamp-vs-perfectionism/">Bootcamp vs. Perfectionism</a></li>
-            <li><a href="blogging/futura-lsc/">Screen Break</a></li>
-            <li><a href="blogging/css3-book-review/">Review of CSS3 for Web Designers</a></li>
+            {% for post in site.posts limit: 3 %}
+            <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+            {% endfor %}
           </ul>
           <h5>Recently played</h5>
           <ul id="newJams">

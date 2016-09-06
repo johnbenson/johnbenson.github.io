@@ -131,10 +131,6 @@ ul.categories li {
   display: inline-block;
 }
 
-a.post-link {
-  @include std-underline;
-}
-
 figure.project-thumb:hover {
   @include greyscale-hover(0%);
 }
