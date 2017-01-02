@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Merry"
+date:   2016-12-23 22:50:15 -0600
+thumbnail: images/santa.jpg
+---
