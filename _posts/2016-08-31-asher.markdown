@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Asher"
-date:   2016-08-31 09:50:15 -0600
-thumbnail: images/asher.jpg
----
-Met a lot of cool dogs this year. This is Asher, my pal for the next week or so.
