@@ -1,0 +1,56 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+html {
+  margin: 0 3vh;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+  margin: auto;
+  max-width:600px;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-size: 9vh;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  margin: 4vh 0;
+}
+
+em, i, dfn {
+	font-style: italic;
+}
+dfn {
+	font-weight:700;
+}
+
+p, code, pre, kbd {
+	margin:0 0 2vh 0;
+}
+blockquote {
+	margin:0 2vh 2vh 2vh;
+}
+
+ul {
+  margin-bottom: 2vh;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.headline {
+  margin: 9vh 0;
+}
+
+#intro {
+  margin-top: 4vh;
+}
+
+#lastline {
+  margin-top: 18vh;
+}
